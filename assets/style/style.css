@@ -24,6 +24,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a{text-decoration: none;}
+
 /* container */
 .container{
     width: 100%;
@@ -39,16 +41,47 @@
 
 }
 
-/* logo_header-css */
-.logo_header{
-    float: right;
-    padding-top: 2px;
+/* header-main */
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 /* logo_img-css */
-.logo_header img{
+.header-left img{
     width: 100px;
     height: auto;
+    padding-bottom: 7px;
 }
+
+
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0 85px 7px 0px;
+    margin: 0 5px;
+}
+
+.nav li a{
+    padding: 0 10px;
+    color: var(--fonts);
+    cursor: pointer;
+}
+
+.btn{
+    margin-bottom: 6px;
+}
+
+
 
