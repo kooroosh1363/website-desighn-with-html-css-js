@@ -4,13 +4,13 @@
 
 /* color-root */
 :root {
-    --main: rgb(100, 56, 67);
-    --land: rgb(153, 98, 122);
-    --sec: rgb(200, 142, 167);
-    --fonts: rgb(231, 203, 203);
-    --aqua: aqua;
-    --bluev: blueviolet;
-
+    --main  : rgb(100, 56, 67);
+    --land  : rgb(153, 98, 122);
+    --sec   : rgb(200, 142, 167);
+    --fonts : rgb(231, 203, 203);
+    --aqua  : aqua;
+    --bluev : blueviolet;
+    --white : #fff;
 }
 
 
@@ -145,12 +145,18 @@ ul {
 }
 
 
+
+
+/* .intro-main */
 .intro-main{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
+
+/* .intro-left */
 .intro-left{
     width: 50%;
     height: 400px;
@@ -158,21 +164,24 @@ ul {
 }
 
 .intro-left h1{
-    color: var(--main);
+    color: #fff;
     text-align: center;
-    padding: 10px 0 0 0;
+    padding: 0px 100px 0 0;
     font-size: 50px;
 
 }
 
 .intro-left img{
-    width: 550px;
+    width: 480px;
     height: auto;
-    /* padding: 35px 0px 0px 60px; */
+    margin: 0 auto;
+    padding: 0px 0px 0px 50px;
 }
 
 
 
+
+/* .intro-right */
 .intro-right{
     width: 50%;
     height: 400px;
@@ -183,9 +192,55 @@ ul {
     
 }
 
-
 .intro-right img{
     width: 550px;
     height: auto;
-    /* padding: 25px 20px 0px 60px; */
+    
+}
+
+
+
+
+/* .btn-intro-1 */
+.btn-intro-1{
+    background-color: var(--aqua);
+    padding: 8px 8px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: var(--main);
+    margin-top: 15px;
+}
+
+.btn-intro-1:hover{
+    background-color: #fff;
+    color: black;
+    transform: scale(1.3);
+    transition: .4s;
+}
+
+
+
+
+/* .btn-intro-2 */
+.btn-intro-2{
+    background-color: var(--aqua);
+    padding: 8px 8px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: var(--main);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.btn-intro-2:hover{
+    background-color: #fff;
+    color: black;
+    transform: scale(1.3);
+    transition: .4s;
 }
