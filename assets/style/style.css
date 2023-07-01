@@ -8,6 +8,8 @@
     --land  : rgb(153, 98, 122);
     --sec   : rgb(200, 142, 167);
     --fonts : rgb(231, 203, 203);
+    --aqua  : aqua;
+    --bluev : blueviolet;
 
 }
 
@@ -24,7 +26,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+body{
+    background: gray;
+}
+
 a{text-decoration: none;}
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 /* container */
 .container{
@@ -32,7 +46,7 @@ a{text-decoration: none;}
     padding: 0 60px;
 }
 
-/* header */
+/* header-css */
 .header{
     width: 100%;
     height: 65px;
@@ -41,7 +55,7 @@ a{text-decoration: none;}
 
 }
 
-/* header-main */
+/* header-main-css */
 .header-main{
     display: flex;
     justify-content: space-between;
@@ -54,9 +68,17 @@ a{text-decoration: none;}
     width: 100px;
     height: auto;
     padding-bottom: 7px;
+    cursor: pointer;
+}
+
+.header-left img:hover{
+    transform: scale(1.1);
+    transition: .5s;
 }
 
 
+
+/* header-right-css */
 .header-right{
     display: flex;
     justify-content: center;
@@ -64,23 +86,48 @@ a{text-decoration: none;}
 }
 
 
+
+/* nav-css */
 .nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none;
-    padding: 0 85px 7px 0px;
+    padding: 0 100px 7px 0px;
     margin: 0 5px;
 }
 
 .nav li a{
-    padding: 0 10px;
+    padding: 0 30px;
     color: var(--fonts);
     cursor: pointer;
 }
 
+.nav li a:hover{
+    color: var(--aqua);
+}
+
+
+
+
+/* btn-css */
 .btn{
     margin-bottom: 6px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: var(--aqua);
+    color: var(--main);
+    padding: 8px 8px;
+    border-radius:30px ;
+    
+}
+
+.btn:hover{
+    background-color: var(--bluev);
+    color: var(--fonts);
+    transform: scale(1.3);
+    transition: .4s;
+    
 }
 
 
