@@ -374,7 +374,36 @@ p {
 }
 
 
-/*  */
+
+/* home-ads */
+.home-ads{
+    margin-top: 40px;
+}
+
+
+
+/* home-ad-css */
+.home-ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* left-ads */
+.left-ads{
+    background: #9b9b9b;
+    width: 25%;
+    height: 300px;
+}
+
+
+/* right-ads */
+.right-ads{
+    background: gold;
+    width: 75%;
+    height: 300px;
+}
 
 
 
