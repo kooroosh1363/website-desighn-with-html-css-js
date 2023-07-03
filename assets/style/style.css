@@ -392,17 +392,29 @@ p {
 
 /* left-ads */
 .left-ads{
-    background: #9b9b9b;
     width: 25%;
     height: 300px;
+    padding: 15px;
+}
+
+.left-ads img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 
 /* right-ads */
 .right-ads{
-    background: gold;
     width: 75%;
     height: 300px;
+    padding: 15px;
+}
+
+.right-ads img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 
