@@ -21,14 +21,17 @@
 
 /* * */
 * {
-    margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
 
-body {}
+body {
+    margin: 0;
+    padding: 0;
+
+}
 
 a {
     text-decoration: none;
@@ -61,6 +64,12 @@ p {
     padding: 0 60px;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* header-css */
 .header {
     width: 100%;
@@ -70,8 +79,7 @@ p {
 
 }
 
-/* header-main-css */
-.header-main {
+.header-main{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -283,6 +291,7 @@ p {
     width: 25%;
     height: auto;
     padding: 15px;
+
 }
 
 
@@ -291,6 +300,7 @@ p {
     width: 100%;
     height: 425px;
     box-shadow: 3px 2px 6px var(--land);
+    border-radius: 15px;
 }
 
 
@@ -376,14 +386,14 @@ p {
 
 
 /* home-ads */
-.home-ads{
+.home-ads {
     margin-top: 40px;
 }
 
 
 
 /* home-ad-css */
-.home-ad{
+.home-ad {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -391,13 +401,13 @@ p {
 
 
 /* left-ads */
-.left-ads{
-    width: 25%;
+.left-ads {
+    width: 40%;
     height: 300px;
     padding: 15px;
 }
 
-.left-ads img{
+.left-ads img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -405,13 +415,13 @@ p {
 
 
 /* right-ads */
-.right-ads{
-    width: 75%;
+.right-ads {
+    width: 60%;
     height: 300px;
     padding: 15px;
 }
 
-.right-ads img{
+.right-ads img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -422,50 +432,11 @@ p {
 
 
 
-/* media query */
-
-@media screen and (max-width: 1400px){
-    /* .btn{
-        margin-right: 340px;
-    } */
-}
+/* media query */ 
 
 
-@media screen and (max-width: 1100px) {
-
-    .posts {
-        
-        flex-direction: column;
-    
-    }
-    .post-new {
-        width: 45% ;
-        
-    }
-    .container{
-        padding: 0 15px;
-    }
-    .btn{
-        margin: 0 90px 0 0;
-    }
-}
 
 
-@media screen and (max-width: 800px){
-    .intro-left img{
-        padding: 0 90px 0 0;
-    }
-   
-    body{
-        margin: 0;
-        padding: 0;
-    }
-   
-    .intro-right img{
-        padding: 0 80px 0 0;
-    }
 
-    .container{
-        padding: 0 0;
-    }
-}
+
+
