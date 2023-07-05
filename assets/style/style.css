@@ -448,8 +448,30 @@ p {
     border-radius: 10px;
 }
 
+/* top-coins-items */
+.top-coins-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
+/* top-items */
+.top-items{
+    width: calc(100%/3);
+    height: 300px;
+    padding: 15px;
+    
+}
+
+.top-coins h2{
+    padding: 0 15px;
+    color: var(--land);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
 
 
