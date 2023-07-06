@@ -321,6 +321,7 @@ p {
     display: -ms-flexbox;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -503,6 +504,14 @@ p {
 
 
 /* media query */
+@media (max-width:1024px) {
+    .post-new {
+        width: 50%;
+        height: auto;
+        padding: 15px;
+    
+    }
+}
 
 @media (max-width:768px) {
     .nav {
@@ -517,6 +526,12 @@ p {
     .btn{
         position: absolute;
         right: 20px;
+    }
+    .post-new {
+        width: 50%;
+        height: auto;
+        padding: 15px;
+    
     }
 }
 
