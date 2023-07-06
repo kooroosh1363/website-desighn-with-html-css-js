@@ -478,6 +478,11 @@ p {
 /* media query */
 
 @media (max-width:768px) {
+    .nav {
+        display: none;
+    }
+
+   
     .btn{
         position: absolute;
         right: 20px;
