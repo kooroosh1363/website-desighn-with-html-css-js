@@ -59,7 +59,9 @@ ul {
     padding-right: 15px;
 }
 
-
+.m-b{
+    margin-bottom: 100px;
+}
 p {
     margin: 0;
 }
@@ -465,12 +467,15 @@ p {
     border-radius: 10px;
 }
 
+
+
 /* top-coins-items */
 .top-coins-items{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-wrap: wrap;
+    background: var(--fonts);
 }
 
 
@@ -479,6 +484,11 @@ p {
     width: calc(100%/3);
     height: 300px;
     padding: 15px;
+    margin-bottom: 150px;
+   
+}
+
+.top-coins{
     
 }
 
