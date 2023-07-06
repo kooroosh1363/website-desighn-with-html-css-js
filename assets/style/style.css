@@ -123,6 +123,23 @@ p {
     align-items: center;
 }
 
+/* ham-menu */
+.ham-menu{
+    background: transparent;
+    border: none;
+    display: none;
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+}
+
+.ham-menu img{
+    width: 40px;
+}
+
+
+
+
 
 
 /* nav-css */
@@ -482,6 +499,10 @@ p {
         display: none;
     }
 
+    .ham-menu{
+        display: inline-block;
+    }
+
    
     .btn{
         position: absolute;
@@ -574,6 +595,9 @@ p {
     }
     .btn{
         right: 9px;
+    }
+    .ham-menu{
+        right: 80px;
     }
 }
 
