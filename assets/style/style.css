@@ -59,7 +59,9 @@ ul {
     padding-right: 15px;
 }
 
-
+.m-b{
+    margin-bottom: 100px;
+}
 p {
     margin: 0;
 }
@@ -319,6 +321,7 @@ p {
     display: -ms-flexbox;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -465,12 +468,15 @@ p {
     border-radius: 10px;
 }
 
+
+
 /* top-coins-items */
 .top-coins-items{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-wrap: wrap;
+    background: var(--fonts);
 }
 
 
@@ -479,9 +485,11 @@ p {
     width: calc(100%/3);
     height: 300px;
     padding: 15px;
-    
+    margin-bottom: 150px;
+   
 }
 
+/* .top-coins h2 */
 .top-coins h2{
     padding: 0 15px;
     color: var(--land);
@@ -492,7 +500,68 @@ p {
 
 
 
+
+
+
+
+
+/* top-service */
+.top-service{
+    margin-top: 30px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.img-service{
+    width: 25%;
+    height: auto;
+}
+
+
+/* .img-service img */
+.img-service img{
+    width: 70%;
+    height: 100%;
+    padding: 0 0 10px 40px;
+    cursor: pointer;
+}
+
+/* .ser-p-1 */
+.ser-p-1{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: var(--bluev);
+     
+}
+
+/* .ser-p-2 */
+.ser-p-2{
+    text-align: center;
+    font-size: 12px;
+    color: var(--main);
+}
+
+
+
+
+
+
+
+
 /* media query */
+@media (max-width:1024px) {
+    .post-new {
+        width: 50%;
+        height: auto;
+        padding: 15px;
+    
+    }
+}
 
 @media (max-width:768px) {
     .nav {
@@ -507,6 +576,12 @@ p {
     .btn{
         position: absolute;
         right: 20px;
+    }
+    .post-new {
+        width: 50%;
+        height: auto;
+        padding: 15px;
+    
     }
 }
 
@@ -589,6 +664,23 @@ p {
 }
 
 @media (max-width:453px) {
+    .top-items{
+        width: 100%;
+        height: 300px;
+        padding: 15px;
+        margin-bottom: 150px;
+       
+    }
+    .img-service{
+        width: 50%;
+        height: auto;
+    }
+    .post-new {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    
+    }
     .nav li a {
         padding: 0 7px;
         font-size: 12px;
