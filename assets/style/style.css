@@ -554,7 +554,58 @@ p {
 
 
 
+/* footer */
 
+/*footer */
+.footer{
+    width: 100%;
+    background: var(--black);
+    height: 300px;
+    margin-top: 35px;
+    
+}
+
+/* main-footer */
+.main-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* main-footer-first */
+.main-footer-first{
+    width: 30%;
+    padding: 15px;
+    height: auto;
+}
+
+
+
+.footer-card h4{
+    color: var(--white);
+    margin-bottom: 20px;
+    
+}
+
+.footer-card p{
+    font-size: 16px;
+    color: var(--white);
+    /* text-align: center; */
+    font-weight: 700;
+}
+
+.main-footer-mid{
+    width: 20%;
+    padding: 15px;
+    height: auto;
+}
+
+.main-footer-mid{
+    width: 30%;
+    padding: 15px;
+    height: auto;
+}
 
 
 
