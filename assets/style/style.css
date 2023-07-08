@@ -563,6 +563,69 @@ p {
     width: 100%;
     height: 350px;
     margin: 45px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+
+/* first-footer */
+.first-footer{
+    width: 30%;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.first-footer h4{
+    color: var(--white);
+}
+
+.first-footer p{
+    color: var(--white);
+    margin-top: 30px;
+}
+
+
+
+/* mid-footer */
+.mid-footer{
+    width: 20%;
+    margin-top: 90px;
+}
+
+.mid-footer h4{
+    color: var(--white);
+}
+
+.mid-footer ul{
+    margin-top: 30px;
+}
+
+.mid-footer li {
+    color: var(--white);
+    margin-bottom: 8px;
+    cursor: pointer;
+    
+}
+
+
+
+/* last-footer */
+.last-footer{
+    width: 30%;
+    margin-top: 90px;
+}
+
+.last-footer h4{
+    color: var(--white);
+}
+
+.last-footer img{
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 100px;
+    cursor: pointer;
 }
 
 
@@ -582,9 +645,14 @@ p {
 }
 
 @media (max-width:1024px) {
-    
+    .last-footer{
+        margin-left: 70px;
 
-    
+    }
+
+    .last-footer img{
+        margin-top: 4px;
+    }
 
     .post-new {
         width: 50%;
@@ -598,7 +666,9 @@ p {
 
 @media (max-width:768px) {
 
-    
+    .mid-footer{
+        margin-left: 15px;
+    }
 
     .nav {
         display: none;
@@ -670,10 +740,63 @@ p {
     }
 }
 
+@media (max-width:648px) {
+    .main-footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 1000px;
+        
+    }
+    .first-footer{
+        width: 100%;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+.first-footer p{
+    margin-top: 0px 0 0 0;
+}
 
+    .mid-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .last-footer{
+        width: 100%;
+        margin-left: 200px;
+        
+    }
+
+    .last-footer h4{
+        margin-top: 30px;
+        display: none;
+    }
+
+    .last-footer img{
+        margin: 50px 0 0 0 ;
+    }
+}
+
+@media (max-width:540px) {
+    .last-footer{
+        margin: 0px 0px 0 150px;
+    }
+}
 
 @media (max-width:453px) {
-
+    .first-footer h4{
+        text-align: center;
+    }
+    .last-footer{
+        margin: 0px 0px 0 110px;
+    }
     .btn {
         padding: 3px 3px;
     }
@@ -826,6 +949,12 @@ p {
 
 
 @media (max-width:332px) {
+    .main-footer{
+        margin-top: 1px;
+    }
+    .last-footer{
+        margin: 0px 0px 0 60px;
+    }
     .nav li a {
         padding: 0 7px;
         font-size: 9px;
