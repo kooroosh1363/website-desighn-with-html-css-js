@@ -558,47 +558,57 @@ p {
 
 
 /* footer */
-.main-footer{
+
+footer {
     background: var(--black);
     width: 100%;
-    height: 350px;
+    height: 400px;
     margin: 45px 0 0 0;
+}
+
+.main-footer {
+
     display: flex;
     justify-content: center;
     align-items: start;
-    
+
 }
 
 
 /* first-footer */
-.first-footer{
+.first-footer {
     width: 30%;
     margin-top: 90px;
     margin-left: 20px;
 }
 
-.first-footer h4{
+.first-footer h4 {
     color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.first-footer p{
+.first-footer p {
     color: var(--white);
     margin-top: 30px;
+    font-size: 15px;
 }
 
 
 
 /* mid-footer */
-.mid-footer{
+.mid-footer {
     width: 20%;
     margin-top: 90px;
 }
 
-.mid-footer h4{
+.mid-footer h4 {
     color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.mid-footer ul{
+.mid-footer ul {
     margin-top: 30px;
 }
 
@@ -606,22 +616,24 @@ p {
     color: var(--white);
     margin-bottom: 8px;
     cursor: pointer;
-    
+
 }
 
 
 
 /* last-footer */
-.last-footer{
+.last-footer {
     width: 30%;
     margin-top: 90px;
 }
 
-.last-footer h4{
+.last-footer h4 {
     color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.last-footer img{
+.last-footer img {
     margin-top: 20px;
     margin-right: 40px;
     width: 100px;
@@ -630,7 +642,40 @@ p {
 
 
 
+/* hr */
+hr {
+    border-color: var(--main);
+    /* padding: 15px; */
+}
 
+
+/* under */
+.under{
+    
+}
+
+/* under-footer */
+.under-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20p;
+}
+
+/* under-left */
+.under-left{
+    margin-top: 20p;
+}
+
+.under-left img{
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+
+.under-right p{
+    color: var(--white);
+}
 
 
 
@@ -640,17 +685,18 @@ p {
 
 
 /* media query */
-@media (max-width:1440px) {
-    
-}
+@media (max-width:1440px) {}
 
 @media (max-width:1024px) {
-    .last-footer{
+    .under{
+        
+    }
+    .last-footer {
         margin-left: 70px;
 
     }
 
-    .last-footer img{
+    .last-footer img {
         margin-top: 4px;
     }
 
@@ -661,12 +707,15 @@ p {
 
     }
 
-    
+
 }
 
 @media (max-width:768px) {
+    .under{
+        padding: 0 20px;
+    }
 
-    .mid-footer{
+    .mid-footer {
         margin-left: 15px;
     }
 
@@ -691,7 +740,7 @@ p {
 
     }
 
-    
+
 }
 
 
@@ -741,62 +790,71 @@ p {
 }
 
 @media (max-width:648px) {
-    .main-footer{
+    .under{
+        background: var(--black);
+    }
+    .main-footer {
         flex-direction: column;
         flex-wrap: wrap;
-        height: 1000px;
-        
-    }
-    .first-footer{
-        width: 100%;
-        margin-left: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        
-    }
-.first-footer p{
-    margin-top: 0px 0 0 0;
-}
+        background: var(--black);
 
-    .mid-footer{
+    }
+
+    .first-footer {
+        width: 100%;
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .first-footer p {
+        margin-top: 0px 0 0 0;
+    }
+
+    .mid-footer {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         width: 100%;
         margin-left: 20px;
+        background: var(--black);
     }
-    .last-footer{
+
+    .last-footer {
         width: 100%;
         margin-left: 200px;
-        
+
     }
 
-    .last-footer h4{
+    .last-footer h4 {
         margin-top: 30px;
         display: none;
     }
 
-    .last-footer img{
-        margin: 50px 0 0 0 ;
+    .last-footer img {
+        margin: 50px 0 0 0;
     }
 }
 
 @media (max-width:540px) {
-    .last-footer{
+    .last-footer {
         margin: 0px 0px 0 150px;
     }
 }
 
 @media (max-width:453px) {
-    .first-footer h4{
+    .first-footer h4 {
         text-align: center;
     }
-    .last-footer{
+
+    .last-footer {
         margin: 0px 0px 0 110px;
     }
+
     .btn {
         padding: 3px 3px;
     }
@@ -878,6 +936,10 @@ p {
         flex-direction: column;
     }
 
+    .intro-left img{
+        display: none;
+    }
+
     .intro-left h1 {
         padding: 70px;
     }
@@ -949,12 +1011,14 @@ p {
 
 
 @media (max-width:332px) {
-    .main-footer{
+    .main-footer {
         margin-top: 1px;
     }
-    .last-footer{
+
+    .last-footer {
         margin: 0px 0px 0 60px;
     }
+
     .nav li a {
         padding: 0 7px;
         font-size: 9px;
