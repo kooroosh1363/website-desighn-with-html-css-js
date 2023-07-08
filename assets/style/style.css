@@ -165,6 +165,28 @@ p {
     color: var(--aqua);
 }
 
+.nav li span{
+    padding: 0 0 0 30px;
+}
+
+
+.nav span{
+    color: var(--fonts);
+    cursor: pointer;
+}
+
+.nav span:hover{
+    color: var(--aqua);
+}
+
+.bi{
+    color: var(--aqua);
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+
+
 
 
 
