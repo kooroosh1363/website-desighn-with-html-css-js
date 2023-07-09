@@ -226,8 +226,6 @@ p {
 .shop-down li:hover{
     color: var(--aqua);
     background-color: var(--bluev);
-    
-
 }
 
 
@@ -749,7 +747,45 @@ hr {
 
 
 
+/* single */
 
+/* breadcrumbs */
+.breadcrumbs{
+    padding: 15px 0;
+    background-color: var(--fonts);
+    cursor: pointer;
+}
+
+/* bread a */
+.bread a{
+    font-weight: 700;
+    color: var(--bluev);
+    vertical-align:0px;
+
+}
+
+.bread a:hover{
+    color: var(--white);
+}
+
+
+/* bread span */
+.bread span{
+    color: var(--main);
+    font-weight: 500;
+    font-size: 19px;
+}
+
+
+
+
+.bi-caret-right{
+    color: var(--black);
+}
+
+
+
+/* single */
 
 
 
