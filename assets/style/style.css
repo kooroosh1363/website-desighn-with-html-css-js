@@ -751,7 +751,7 @@ hr {
 
 /* breadcrumbs */
 .breadcrumbs{
-    padding: 15px 0;
+    padding: 12px 0;
     background-color: var(--fonts);
     cursor: pointer;
 }
@@ -776,13 +776,175 @@ hr {
     font-size: 19px;
 }
 
-
-
-
+/* .bi-caret-right */
 .bi-caret-right{
     color: var(--black);
 }
 
+
+
+
+
+
+/* single product */
+.single-product{
+    padding: 55px 0;
+}
+
+
+
+/* single-pro */
+.single-pro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* .single-pro-left */
+.single-pro-left{
+    border: 2px solid var(--black);
+    width: 50%;
+    height: 500px;
+}
+
+
+/* .single-pro-right */
+.single-pro-right{
+    margin-left: 20px;
+    width: 50%;
+    height: 500px;
+    
+    
+}
+
+
+/* .single-right */
+.single-right{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .single-right span  */
+.pro-price{
+    text-decoration: underline;
+    margin-top: 10px;
+    color: var(--sec);
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+
+/* .single-pro-right h1 */
+.single-pro-right h1{
+    font-weight: 500;
+    font-size: 19px;
+    color: var(--main);
+    text-transform: uppercase;
+}
+
+
+/* .pro-img img */
+.pro-img img{
+    width: 100%;
+    height: 500px;
+    margin: 0px 0 0 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+/* pro-colors */
+.pro-colors{
+    margin-top: 70px;
+}
+
+
+/* pro-color */
+.pro-colors p{
+    margin: 0px 0 15px 0;
+    font-weight: 700;
+    color: var(--main);
+}
+
+/* pro-color-1 */
+.pro-color-1{
+    border: 2px solid var(--black);
+    margin-left: 18px;
+    background: var(--black);
+    color: var(--white);
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px 8px;
+    cursor: pointer;
+}
+
+.pro-color-1:hover{
+    font-size: 15px;
+    background: var(--white);
+    color: var(--black);
+    font-weight: 800;
+   
+}
+
+
+/* pro-color-2 */
+.pro-color-2{
+    border: 2px solid var(--black);
+    margin-left: 18px;
+    background: gold;
+    color: var(--black);
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.pro-color-2:hover{
+    font-size: 15px;
+    background: var(--white);
+    color: gold;
+    font-weight: 800;
+   
+}
+
+/* pro-color-3 */
+.pro-color-3{
+    border: 2px solid var(--black);
+    margin-left: 18px;
+    background: green;
+    color: var(--black);
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.pro-color-3:hover{
+    font-size: 15px;
+    background: var(--white);
+    color:green;
+    font-weight: 800;
+   
+}
+
+
+
+
+
+/* pro-props */
+.pro-props{
+    margin-top: 70px;
+}
+
+.pro-props p{
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--main);
+}
 
 
 /* single */
