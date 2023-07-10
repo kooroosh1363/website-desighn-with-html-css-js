@@ -1000,63 +1000,70 @@ hr {
 
 
 /* media query */
-@media (max-width:2560) {
+@media (max-width:2560px) {
+    .single-pro-left {
+        height: 815px;
+        border-radius: 20px;
+    }
     .pro-img img {
         width: 100%;
-        height: 900px;
-    }
-
-    .pro-img img {
-        width: 97%;
-        height: 500px;
-        margin: 9px 0 0 8px;
+        height: 812px;
+        margin: 0px 0 0 0;
         border-radius: 20px;
         cursor: pointer;
     }
+    .pro-img img {
+        width: 100%;
+        height: 574px;
+        margin: 0px 0 0 0;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .text-h2 {
+        font-size: 57px;
+    }
+    
     .new-card {
-        height: 740px;
+        height: 770px;
     }
     
     .titles {
-        margin-top: 141px;
-        padding: 0px 10px 0px 10px;
-    }
-    
-    .desc {
-        padding: 0px 10px 0px 10px;
+        margin-top: 360px;
+        padding: 0px 10px;
     }
     
     p.name-coin {
-        font-size: 40px;
+        font-size: 36px;
         font-weight: 800;
-    }
-    
-    p.new-price {
-        font-size: 40px;
-        font-weight: 800;
-    }
-    
-    p.desc-coin {
-        font-size: 35px;
-        font-weight: 600;
     }
     
     p.price-coin {
+        font-size: 26px;
+    }
+    
+    p.desc-coin {
+        font-size: 28px;
+        font-weight: 900;
+    }
+    
+    p.new-price {
         font-size: 30px;
     }
     
-   
-    
-    .text-h2 {
-        font-size: 47px;
+    .desc {
+        padding: 0 10px;
     }
-    
-    .pro-img {
-        height: 400px;
-    }
-    
-    .single-pro-left {}
 }
+
+
+
+
+
+
+
+
+
 
 @media (max-width:1440px) {
     .pro-img img {
@@ -1067,6 +1074,13 @@ hr {
         cursor: pointer;
     }
 }
+
+
+
+
+
+
+
 
 @media (max-width:1024px) {
 
@@ -1111,6 +1125,41 @@ hr {
 
 
 @media (max-width:768px) {
+    .single-pro-left {
+        height: 327px;
+        border-radius: 20px;
+    }
+    
+    .titles {
+        margin-top: -36px;
+    }
+    
+    .new-card {
+        height: 533px;
+    }
+    
+    p.name-coin {
+        font-size: 31px;
+    }
+    
+    p.price-coin {
+        font-size: 25px;
+    }
+    
+    p.desc-coin {
+        font-size: 21px;
+    }
+    
+    p.new-price {
+        font-size: 24px;
+    }
+    .pro-img img {
+        width: 100%;
+        height: 321px;
+        margin: 1px 0 0px 0px;
+        border-radius: 17px;
+        cursor: pointer;
+    }
     .main {
         padding: 0 0;
         overflow-x: hidden !important;
