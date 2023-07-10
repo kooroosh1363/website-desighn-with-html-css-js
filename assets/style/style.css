@@ -174,21 +174,21 @@ p {
     color: var(--aqua);
 }
 
-.nav li span{
+.nav li span {
     padding: 0 0 0 30px;
 }
 
 
-.nav span{
+.nav span {
     color: var(--fonts);
     cursor: pointer;
 }
 
-.nav span:hover{
+.nav span:hover {
     color: var(--aqua);
 }
 
-.bi{
+.bi {
     color: var(--aqua);
     margin-left: 4px;
     cursor: pointer;
@@ -196,34 +196,34 @@ p {
 }
 
 /* shop-down */
-.shop-down{
+.shop-down {
     position: absolute;
     background-color: var(--land);
     width: 250px;
     height: auto;
     top: 21px;
     left: 0;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    
+
 }
 
-.drop-down .shop-down{
+.drop-down .shop-down {
     display: none;
 }
 
-.drop-down:hover .shop-down{
+.drop-down:hover .shop-down {
     display: block;
 }
 
-.shop-down li{
+.shop-down li {
     font-size: 15px;
     font-weight: 500;
     padding: 10px;
 
 }
 
-.shop-down li:hover{
+.shop-down li:hover {
     color: var(--aqua);
     background-color: var(--bluev);
 }
@@ -517,8 +517,8 @@ p {
 .left-ads {
     width: 40%;
     height: 300px;
-    padding: 15px;postys
-    cursor: pointer;
+    padding: 15px;
+    postys cursor: pointer;
 }
 
 .left-ads img {
@@ -718,12 +718,10 @@ hr {
 
 
 /* under */
-.under{
-    
-}
+.under {}
 
 /* under-footer */
-.under-footer{
+.under-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -731,17 +729,17 @@ hr {
 }
 
 /* under-left */
-.under-left{
+.under-left {
     margin-top: 20p;
 }
 
-.under-left img{
+.under-left img {
     margin-top: 6px;
     cursor: pointer;
 }
 
 
-.under-right p{
+.under-right p {
     color: var(--white);
 }
 
@@ -750,34 +748,34 @@ hr {
 /* single */
 
 /* breadcrumbs */
-.breadcrumbs{
+.breadcrumbs {
     padding: 12px 0;
     background-color: var(--fonts);
     cursor: pointer;
 }
 
 /* bread a */
-.bread a{
+.bread a {
     font-weight: 700;
     color: var(--bluev);
-    vertical-align:0px;
+    vertical-align: 0px;
 
 }
 
-.bread a:hover{
+.bread a:hover {
     color: var(--white);
 }
 
 
 /* bread span */
-.bread span{
+.bread span {
     color: var(--main);
     font-weight: 500;
     font-size: 19px;
 }
 
 /* .bi-caret-right */
-.bi-caret-right{
+.bi-caret-right {
     color: var(--black);
 }
 
@@ -787,14 +785,14 @@ hr {
 
 
 /* single product */
-.single-product{
+.single-product {
     padding: 55px 0;
 }
 
 
 
 /* single-pro */
-.single-pro{
+.single-pro {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -802,7 +800,7 @@ hr {
 
 
 /* .single-pro-left */
-.single-pro-left{
+.single-pro-left {
     border: 2px solid var(--black);
     width: 50%;
     height: 500px;
@@ -810,22 +808,22 @@ hr {
 
 
 /* .single-pro-right */
-.single-pro-right{
+.single-pro-right {
     margin-left: 50px;
     width: 50%;
     height: 500px;
-    
-    
+
+
 }
 
 
 /* .single-right */
-.single-right{
+.single-right {
     display: flex;
     flex-direction: column;
 }
 
-.single-right p{
+.single-right p {
     margin-top: 10px;
     font-weight: 800;
     color: var(--main);
@@ -833,17 +831,17 @@ hr {
 }
 
 /* .single-right span  */
-.pro-price{
+.pro-price {
     text-decoration: underline;
     margin-top: 10px;
     color: var(--sec);
     font-weight: 700;
     font-size: 30px;
-    
+
 }
 
 /* .single-pro-right h1 */
-.single-pro-right h1{
+.single-pro-right h1 {
     font-weight: 500;
     font-size: 19px;
     color: var(--main);
@@ -852,7 +850,7 @@ hr {
 
 
 /* .pro-img img */
-.pro-img img{
+.pro-img img {
     width: 100%;
     height: 500px;
     margin: 0px 0 0 0;
@@ -863,20 +861,20 @@ hr {
 
 
 /* pro-colors */
-.pro-colors{
+.pro-colors {
     margin-top: 30px;
 }
 
 
 /* pro-color */
-.pro-colors p{
+.pro-colors p {
     margin: 0px 0 15px 0;
     font-weight: 700;
     color: var(--main);
 }
 
 /* pro-color-1 */
-.pro-color-1{
+.pro-color-1 {
     border: 2px solid var(--black);
     margin-left: 18px;
     background: var(--black);
@@ -887,17 +885,17 @@ hr {
     cursor: pointer;
 }
 
-.pro-color-1:hover{
+.pro-color-1:hover {
     font-size: 15px;
     background: var(--white);
     color: var(--black);
     font-weight: 800;
-   
+
 }
 
 
 /* pro-color-2 */
-.pro-color-2{
+.pro-color-2 {
     border: 2px solid var(--black);
     margin-left: 18px;
     background: gold;
@@ -909,16 +907,16 @@ hr {
     cursor: pointer;
 }
 
-.pro-color-2:hover{
+.pro-color-2:hover {
     font-size: 15px;
     background: var(--white);
     color: gold;
     font-weight: 800;
-   
+
 }
 
 /* pro-color-3 */
-.pro-color-3{
+.pro-color-3 {
     border: 2px solid var(--black);
     margin-left: 18px;
     background: green;
@@ -930,12 +928,12 @@ hr {
     cursor: pointer;
 }
 
-.pro-color-3:hover{
+.pro-color-3:hover {
     font-size: 15px;
     background: var(--white);
-    color:green;
+    color: green;
     font-weight: 800;
-   
+
 }
 
 
@@ -943,12 +941,12 @@ hr {
 
 
 /* pro-props */
-.pro-props{
+.pro-props {
     margin-top: 30px;
 }
 
 /* .pro-props p */
-.pro-props p{
+.pro-props p {
     font-weight: 800;
     font-size: 20px;
     color: var(--main);
@@ -956,7 +954,7 @@ hr {
 }
 
 /* .pro-props ul li */
-.pro-props ul li{
+.pro-props ul li {
     font-weight: 800;
     font-size: 17px;
     color: var(--land);
@@ -966,12 +964,12 @@ hr {
 
 
 /* single-btn */
-.single-btn{
+.single-btn {
     margin-top: 25px;
 }
 
 /* btn-nft */
-.btn-nft{
+.btn-nft {
     width: 450px;
     padding: 20px;
     border: none;
@@ -983,7 +981,7 @@ hr {
     border-radius: 10px;
 }
 
-.btn-nft:hover{
+.btn-nft:hover {
     width: 450px;
     padding: 16px;
     border: none;
@@ -1002,16 +1000,76 @@ hr {
 
 
 /* media query */
-@media (max-width:2560){
-    .pro-img img{
+@media (max-width:2560) {
+    .pro-img img {
         width: 100%;
         height: 900px;
     }
+
+    .pro-img img {
+        width: 97%;
+        height: 500px;
+        margin: 9px 0 0 8px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .new-card {
+        height: 740px;
+    }
+    
+    .titles {
+        margin-top: 141px;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .desc {
+        padding: 0px 10px 0px 10px;
+    }
+    
+    p.name-coin {
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+    p.new-price {
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+    p.desc-coin {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    
+    p.price-coin {
+        font-size: 30px;
+    }
+    
+   
+    
+    .text-h2 {
+        font-size: 47px;
+    }
+    
+    .pro-img {
+        height: 400px;
+    }
+    
+    .single-pro-left {}
 }
-@media (max-width:1440px) {}
+
+@media (max-width:1440px) {
+    .pro-img img {
+        width: 95%;
+        height: 321px;
+        margin: 0px 0 5px 8px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
 
 @media (max-width:1024px) {
-   
+
     .last-footer {
         margin-left: 70px;
 
@@ -1031,7 +1089,7 @@ hr {
 
 }
 
-@media (max-width:900px){
+@media (max-width:900px) {
     .main {
         padding: 0 0;
         overflow-x: hidden;
@@ -1062,16 +1120,16 @@ hr {
     .single-pro {
         margin-left: 60px;
     }
-    
+
     button.btn-nft {
         width: 300px;
     }
-    
+
     .bread {
         margin-left: 20px;
     }
 
-    .under{
+    .under {
         padding: 0 20px;
     }
 
@@ -1142,6 +1200,7 @@ hr {
         overflow-x: hidden !important;
 
     }
+
     .btn {
 
         right: 10px;
@@ -1155,9 +1214,10 @@ hr {
 }
 
 @media (max-width:648px) {
-    .under{
+    .under {
         background: var(--black);
     }
+
     .main-footer {
         flex-direction: column;
         flex-wrap: wrap;
@@ -1211,20 +1271,22 @@ hr {
         overflow-x: hidden !important;
 
     }
+
     .last-footer {
         margin: 0px 0px 0 150px;
     }
 }
 
 @media (max-width:453px) {
-    .single-pro-left{
+    .single-pro-left {
         border: none;
-        
+
     }
+
     .pro-img img {
         width: 200px;
         height: 300px;
-        
+
     }
 
 
@@ -1235,40 +1297,42 @@ hr {
         align-items: center;
         margin-left: 8px;
     }
-    
+
     .single-right h1 {
         margin-top: 20px;
         /* text-align: center; */
         /* margin-left: 2px; */
     }
-    
+
     .pro-colors {
         display: flex;
         flex-direction: column;
     }
-    
+
     span.pro-color-1 {
         margin-bottom: 10px;
         text-align: center;
     }
-    
+
     span.pro-color-2 {
         text-align: center;
         margin-bottom: 10px;
     }
-    
+
     span.pro-color-3 {
         text-align: center;
     }
-    
+
     button.btn-nft {
         width: 200px;
     }
+
     .main {
         padding: 0 0;
         overflow-x: hidden !important;
 
     }
+
     .first-footer h4 {
         text-align: center;
     }
@@ -1358,7 +1422,7 @@ hr {
         flex-direction: column;
     }
 
-    .intro-left img{
+    .intro-left img {
         display: none;
     }
 
@@ -1421,6 +1485,7 @@ hr {
         overflow-x: hidden !important;
 
     }
+
     .intro-right img {
         width: 300px;
         height: auto;
@@ -1443,6 +1508,7 @@ hr {
         overflow-x: hidden !important;
 
     }
+
     .main-footer {
         margin-top: 1px;
     }
