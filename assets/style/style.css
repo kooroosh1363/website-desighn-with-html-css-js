@@ -755,7 +755,13 @@ hr {
 
 
 
-
+@media (max-width:1440px){
+    .pro-img {
+        width: 93%;
+        height: 250px;
+        margin-left: 14px;
+    }
+}
 
 
 
