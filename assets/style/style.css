@@ -755,6 +755,159 @@ hr {
 
 
 
+
+
+
+
+
+@media (max-width:2560px){
+    .new-card {
+        height: 747px;
+    }
+    
+    .pro-img img {
+        height: 495px;
+    }
+    
+    .titles {
+        margin-top: 323px;
+    }
+    
+    p.name-coin {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    
+    p.price-coin {
+        font-size: 36px;
+        margin-right: 20px;
+        font-weight: 600;
+    }
+    
+    p.desc-coin {
+        font-size: 32px;
+        font-weight: 900;
+    }
+    
+    p.desc-coin {}
+    
+    p.new-price {
+        font-size: 35px;
+        margin-right: 18px;
+        font-weight: 900;
+    }
+    
+    .text-h2 {
+        font-size: 60px;
+    }
+    
+    .right-ads {
+        height: 466px;
+    }
+    
+    .left-ads {
+        height: 466px;
+    }
+    
+    .top-coins h2 {
+        font-size: 64px;
+        margin-bottom: 20px;
+    }
+    
+    .top-items {
+        height: 618px;
+    }
+    
+    .pro-img img {
+        height: 568px;
+    }
+    
+    p.ser-p-1 {
+        font-size: 39px;
+        font-weight: 800;
+    }
+    
+    p.ser-p-2 {
+        font-size: 40px;
+    }
+    
+    .top-service {
+        margin-top: 50px;
+    }
+    
+    .first-footer h4 {
+        font-size: 40px;
+    }
+    
+    .first-footer p {
+        font-size: 30px;
+    }
+    
+    .mid-footer h4 {
+        font-size: 40px;
+    }
+    
+    .mid-footer ul {
+        font-size: 40px;
+    }
+    
+    .mid-footer {margin-bottom: 21px;}
+    
+    footer {
+        height: 562px;
+    }
+    
+    .last-footer h4 {
+        font-size: 40px;
+    }
+    
+    .last-footer img {
+        width: 284px;
+    }
+    
+    .under-left img {
+        width: 73px;
+    }
+    
+    .under-right p {
+        font-size: 35px;
+    }
+    
+    .header {
+        height: 90px;
+    }
+    
+    ul.nav {
+        font-size: 39px;
+        margin: 23px 0;
+    }
+    
+    button.btn {
+        padding: 16px 30px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    .header-left img {
+        max-width: 145px;
+    }
+    
+    .intro {
+        height: 542px;
+    }
+    
+    .intro-left h1 {
+        padding: 110px 50px;
+    }
+    
+    .intro-left img {
+        padding: 0px 50px;
+    }
+}
+
+
+
+
 @media (max-width:1440px){
     .pro-img {
         width: 93%;
