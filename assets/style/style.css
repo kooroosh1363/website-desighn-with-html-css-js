@@ -1005,6 +1005,106 @@ hr {
 
 
 
+@media (max-width:1024px){
+    ul.nav {
+        font-size: 15px;
+    }
+    
+    button.btn {
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+    
+    .header-left img {
+        max-width: 93px;
+    }
+    
+    .header {
+        height: 68px;
+    }
+    
+    .text-h2 {
+        font-size: 33px;
+    }
+    
+    .post-new {
+        width: 50%;
+    }
+    
+    .top-coins h2 {
+        font-size: 25px;
+    }
+    
+    .pro-img img {
+        height: 290px;
+    }
+    
+    .titles {
+        margin-top: 80px;
+    }
+    
+    p.price-coin {
+        font-size: 16px;
+    }
+    
+    p.new-price {
+        font-size: 17px;
+    }
+    
+    .new-card {
+        height: 449px;
+    }
+    
+    .top-items {
+        height: 327px;
+    }
+    
+    p.ser-p-2 {
+        font-size: 14px;
+    }
+    
+    .first-footer h4 {
+        font-size: 18px;
+    }
+    
+    .first-footer p {
+        font-size: 12px;
+    }
+    
+    .mid-footer ul {
+        font-size: 17px;
+    }
+    
+    .last-footer h4 {
+        font-size: 20px;
+    }
+    
+    .last-footer {
+        margin-left: 20px;
+    }
+    
+    .last-footer img {
+        width: 90px;
+    }
+    
+    .right-ads img {
+        height: 70%;
+    }
+    
+    .left-ads img {
+        height: 70%;
+    }
+    
+    .left-ads {
+    }
+    
+    .home-ad {
+        height: 350px;
+    }
+}
+
+
+
 
 
 
