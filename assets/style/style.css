@@ -1194,3 +1194,156 @@ hr {
         height: 245px;
     }
 }
+
+
+
+
+@media (max-width:425px) {
+    button.btn {
+        padding: 10px 12px;
+    }
+
+    nav.header-main {
+        justify-content: space-between;
+    }
+
+
+    .intro-right img {
+        width: 200px;
+    }
+
+    .intro-left h1 {
+        font-size: 20px;
+    }
+
+    button.btn-intro-2 {
+        font-size: 10px;
+    }
+
+    button.btn-intro-1 {
+        font-size: 10px;
+        margin-left: 60px;
+    }
+
+    button.btn-intro-2 {
+        margin-left: 44px;
+    }
+
+    .intro {
+        height: 340px;
+    }
+
+    .intro-left {
+        height: 358px;
+        width: 49%;
+    }
+
+    .text-h2 {
+        font-size: 25px;
+    }
+
+    .post-new {
+        width: 100%;
+    }
+
+    .home-ad {
+        /* flex-direction: column; */
+    }
+
+    .right-ads img {}
+
+    .home-ads {
+        display: none;
+    }
+
+    .top-coins h2 {
+        font-size: 18px;
+    }
+
+    .top-items {
+        width: 100%;
+    }
+
+    .img-service {
+        width: 100%;
+    }
+
+    p.ser-p-2 {
+        margin-bottom: 13px;
+    }
+
+    .main-footer {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 788px;
+    }
+
+    .first-footer {
+        margin-left: 53px;
+        width: 100%;
+    }
+
+    .mid-footer {
+        width: 100%;
+        margin-left: 81px;
+        margin-bottom: 0px;
+    }
+
+    .last-footer {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .last-footer h4 {
+        margin-left: 62px;
+    }
+
+    .last-footer img {
+        margin-left: 34px;
+    }
+}
+
+
+@media (max-width:375px) {
+    .main {
+        overflow-x: hidden;
+    }
+
+    button.btn {
+        padding: 4px 4px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .header-right {}
+
+    button.ham-menu {}
+
+    .header-left img {
+        max-width: 69px;
+    }
+
+    .header {
+        height: 54px;
+    }
+
+    .btn-intro-2 {
+        padding: 3px 7px;
+    }
+
+    .ham-menu img {
+        right: 40px;
+    }
+
+    img {}
+
+    footer {
+        height: 864px !important;
+    }
+
+    .last-footer img {
+        margin-left: 62px;
+    }
+}
