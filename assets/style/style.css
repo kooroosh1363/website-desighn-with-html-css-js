@@ -760,146 +760,148 @@ hr {
 
 
 
-@media (max-width:2560px){
+@media (max-width:2560px) {
     .new-card {
         height: 747px;
     }
-    
+
     .pro-img img {
         height: 495px;
     }
-    
+
     .titles {
         margin-top: 323px;
     }
-    
+
     p.name-coin {
         font-size: 40px;
         margin-left: 20px;
     }
-    
+
     p.price-coin {
         font-size: 36px;
         margin-right: 20px;
         font-weight: 600;
     }
-    
+
     p.desc-coin {
         font-size: 32px;
         font-weight: 900;
     }
-    
+
     p.desc-coin {}
-    
+
     p.new-price {
         font-size: 35px;
         margin-right: 18px;
         font-weight: 900;
     }
-    
+
     .text-h2 {
         font-size: 60px;
     }
-    
+
     .right-ads {
         height: 466px;
     }
-    
+
     .left-ads {
         height: 466px;
     }
-    
+
     .top-coins h2 {
         font-size: 64px;
         margin-bottom: 20px;
     }
-    
+
     .top-items {
         height: 618px;
     }
-    
+
     .pro-img img {
         height: 568px;
     }
-    
+
     p.ser-p-1 {
         font-size: 39px;
         font-weight: 800;
     }
-    
+
     p.ser-p-2 {
         font-size: 40px;
     }
-    
+
     .top-service {
         margin-top: 50px;
     }
-    
+
     .first-footer h4 {
         font-size: 40px;
     }
-    
+
     .first-footer p {
         font-size: 30px;
     }
-    
+
     .mid-footer h4 {
         font-size: 40px;
     }
-    
+
     .mid-footer ul {
         font-size: 40px;
     }
-    
-    .mid-footer {margin-bottom: 21px;}
-    
+
+    .mid-footer {
+        margin-bottom: 21px;
+    }
+
     footer {
         height: 562px;
     }
-    
+
     .last-footer h4 {
         font-size: 40px;
     }
-    
+
     .last-footer img {
         width: 284px;
     }
-    
+
     .under-left img {
         width: 73px;
     }
-    
+
     .under-right p {
         font-size: 35px;
     }
-    
+
     .header {
         height: 90px;
     }
-    
+
     ul.nav {
         font-size: 39px;
         margin: 23px 0;
     }
-    
+
     button.btn {
         padding: 16px 30px;
         font-size: 32px;
         font-weight: 700;
     }
-    
+
     .header-left img {
         max-width: 145px;
     }
-    
+
     .intro {
         height: 542px;
     }
-    
+
     .intro-left h1 {
         padding: 110px 50px;
     }
-    
+
     .intro-left img {
         padding: 0px 50px;
     }
@@ -908,96 +910,96 @@ hr {
 
 
 
-@media (max-width:1440px){
+@media (max-width:1440px) {
     ul.nav {
         font-size: 24px;
     }
-    
+
     button.btn {
         padding: 12px 20px;
     }
-    
+
     .intro-left img {
         display: none;
     }
-    
+
     .pro-img img {
         height: 342px;
     }
-    
+
     .titles {
         margin-top: 128px;
     }
-    
+
     .new-card {
         height: 513px;
     }
-    
+
     p.name-coin {
         font-size: 25px;
         font-weight: 900;
     }
-    
+
     p.price-coin {
         font-size: 20px;
     }
-    
+
     p.desc-coin {
         font-size: 18px;
     }
-    
+
     p.new-price {
         font-size: 20px;
     }
-    
+
     .top-coins h2 {
         font-size: 40px;
     }
-    
+
     .top-items {
         height: 400px;
     }
-    
+
     p.ser-p-1 {
         font-size: 25px;
     }
-    
+
     p.ser-p-2 {
         font-size: 25px;
     }
-    
+
     .first-footer h4 {
         font-size: 25px;
     }
-    
+
     .first-footer p {
         font-size: 20px;
     }
-    
+
     .mid-footer ul {
         font-size: 25px;
     }
-    
+
     .mid-footer h4 {
         font-size: 25px;
     }
-    
+
     .last-footer img {
         width: 100px;
     }
-    
+
     .last-footer {
         margin-left: 16px;
     }
-    
+
     footer {
         height: 424px;
     }
-    
+
     .under-left img {
         width: 50px;
     }
-    
+
     .under-right p {
         font-size: 20px;
     }
@@ -1005,10 +1007,190 @@ hr {
 
 
 
+@media (max-width:1024px) {
+    ul.nav {
+        font-size: 15px;
+    }
+
+    button.btn {
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+
+    .header-left img {
+        max-width: 93px;
+    }
+
+    .header {
+        height: 68px;
+    }
+
+    .text-h2 {
+        font-size: 33px;
+    }
+
+    .post-new {
+        width: 50%;
+    }
+
+    .top-coins h2 {
+        font-size: 25px;
+    }
+
+    .pro-img img {
+        height: 290px;
+    }
+
+    .titles {
+        margin-top: 80px;
+    }
+
+    p.price-coin {
+        font-size: 16px;
+    }
+
+    p.new-price {
+        font-size: 17px;
+    }
+
+    .new-card {
+        height: 449px;
+    }
+
+    .top-items {
+        height: 327px;
+    }
+
+    p.ser-p-2 {
+        font-size: 14px;
+    }
+
+    .first-footer h4 {
+        font-size: 18px;
+    }
+
+    .first-footer p {
+        font-size: 12px;
+    }
+
+    .mid-footer ul {
+        font-size: 17px;
+    }
+
+    .last-footer h4 {
+        font-size: 20px;
+    }
+
+    .last-footer {
+        margin-left: 20px;
+    }
+
+    .last-footer img {
+        width: 90px;
+    }
+
+    .right-ads img {
+        height: 70%;
+    }
+
+    .left-ads img {
+        height: 70%;
+    }
+
+    .left-ads {}
+
+    .home-ad {
+        height: 350px;
+    }
+}
+
+
+@media (max-width:1024px) {
+    ul.nav {
+        display: none;
+    }
+
+    .ham-menu {
+        display: block;
+        right: 171px;
+        font-size: 14px;
+    }
+}
 
 
 
 
+@media (max-width:768px) {
+    .intro-left h1 {
+        font-size: 31px;
+        font-weight: 900;
+    }
 
+    .intro-right img {
+        width: 400px;
+    }
 
+    .intro {
+        height: 400px;
+    }
 
+    .pro-img img {
+        height: 200px;
+    }
+
+    .titles {
+        margin-top: 0px;
+    }
+
+    p.name-coin {
+        font-size: 18px;
+    }
+
+    p.desc-coin {
+        font-size: 13px;
+    }
+
+    .new-card {
+        height: 350px;
+    }
+
+    .top-items {
+        height: 222px;
+    }
+
+    p.ser-p-1 {
+        font-size: 16px;
+    }
+
+    .mid-footer ul {
+        font-size: 12px;
+    }
+
+    .mid-footer h4 {
+        font-size: 17px;
+    }
+
+    .last-footer h4 {
+        font-size: 17px;
+    }
+
+    .last-footer img {
+        width: 52px;
+    }
+
+    footer {
+        height: 324px;
+    }
+
+    .under-left img {
+        width: 30px;
+    }
+
+    .under-right p {
+        font-size: 15px;
+    }
+
+    .pro-img img {
+        height: 245px;
+    }
+}
