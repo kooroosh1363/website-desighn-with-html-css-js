@@ -909,10 +909,97 @@ hr {
 
 
 @media (max-width:1440px){
-    .pro-img {
-        width: 93%;
-        height: 250px;
-        margin-left: 14px;
+    ul.nav {
+        font-size: 24px;
+    }
+    
+    button.btn {
+        padding: 12px 20px;
+    }
+    
+    .intro-left img {
+        display: none;
+    }
+    
+    .pro-img img {
+        height: 342px;
+    }
+    
+    .titles {
+        margin-top: 128px;
+    }
+    
+    .new-card {
+        height: 513px;
+    }
+    
+    p.name-coin {
+        font-size: 25px;
+        font-weight: 900;
+    }
+    
+    p.price-coin {
+        font-size: 20px;
+    }
+    
+    p.desc-coin {
+        font-size: 18px;
+    }
+    
+    p.new-price {
+        font-size: 20px;
+    }
+    
+    .top-coins h2 {
+        font-size: 40px;
+    }
+    
+    .top-items {
+        height: 400px;
+    }
+    
+    p.ser-p-1 {
+        font-size: 25px;
+    }
+    
+    p.ser-p-2 {
+        font-size: 25px;
+    }
+    
+    .first-footer h4 {
+        font-size: 25px;
+    }
+    
+    .first-footer p {
+        font-size: 20px;
+    }
+    
+    .mid-footer ul {
+        font-size: 25px;
+    }
+    
+    .mid-footer h4 {
+        font-size: 25px;
+    }
+    
+    .last-footer img {
+        width: 100px;
+    }
+    
+    .last-footer {
+        margin-left: 16px;
+    }
+    
+    footer {
+        height: 424px;
+    }
+    
+    .under-left img {
+        width: 50px;
+    }
+    
+    .under-right p {
+        font-size: 20px;
     }
 }
 
