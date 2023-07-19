@@ -897,6 +897,39 @@ hr {
     }
 }
 
+
+@media (max-width:1440px){
+    .single-pro-left {
+        height: 600px;
+    }
+    
+    .pro-images img {
+        height: 596px;
+    }
+    
+    p.name-coin {
+        font-size: 30px;
+    }
+    
+    p.price-coin {
+        font-size: 25px;
+    }
+    
+    p.desc-coin {
+        font-size: 20px;
+    }
+    
+    p.new-price {
+        font-size: 25px;
+    }
+    
+    .pro-img img {
+        height: 350px;
+    }
+}
+
+
+
 @media (max-width:1024px){
     .post-new {
         width: 50%;
