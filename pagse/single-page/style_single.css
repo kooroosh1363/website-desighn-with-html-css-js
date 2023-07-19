@@ -757,7 +757,23 @@ hr {
 
 
 
+/* comments */
+.single-comments{
+    padding: 30px 0;
+}
 
+.single-comments h5{
+    font-size: 18px;
+}
+
+
+.single-comment{
+    
+}
+
+.comment-item{
+
+}
 
 
 
