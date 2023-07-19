@@ -801,12 +801,16 @@ hr {
         font-size: 60px;
     }
 
-    .right-ads {
-        height: 466px;
+    .right-ads img {
+        height: 530px;
     }
 
-    .left-ads {
-        height: 466px;
+    .left-ads img {
+        height: 530px;
+    }
+
+    .top-coins {
+        margin-top: 273px;
     }
 
     .top-coins h2 {
@@ -903,9 +907,42 @@ hr {
     }
 
     .intro-left img {
-        padding: 0px 50px;
+        display: none;
     }
 }
+
+
+@media (max-width:1920px) {
+    ul.nav {
+        font-size: 25px;
+    }
+
+    button.btn {
+        padding: 12px 9px;
+    }
+
+    .pro-img img {
+        height: 442px;
+    }
+
+    .titles {
+        margin-top: 199px;
+    }
+
+    .new-card {
+        height: 663px;
+    }
+
+    .last-footer img {
+        max-width: 200px;
+    }
+
+    footer {
+        height: 565px;
+    }
+}
+
+
 
 
 
@@ -1007,6 +1044,10 @@ hr {
 
 
 
+
+
+
+
 @media (max-width:1024px) {
     ul.nav {
         font-size: 15px;
@@ -1090,17 +1131,23 @@ hr {
     }
 
     .right-ads img {
-        height: 70%;
+        height: 85%;
     }
 
     .left-ads img {
-        height: 70%;
+        height: 85%;
     }
 
-    .left-ads {}
+    .top-coins {
+        margin-top: 10px;
+    }
 
     .home-ad {
-        height: 350px;
+        height: 249px;
+    }
+
+    .home-ads {
+        margin-top: 7px;
     }
 }
 
@@ -1200,50 +1247,50 @@ hr {
 
 @media (max-width:425px) {
     button.btn {
-        padding: 10px 12px;
+        padding: 10px 12px !important;
     }
 
     nav.header-main {
-        justify-content: space-between;
+        justify-content: space-between !important;
     }
 
 
     .intro-right img {
-        width: 200px;
+        width: 200px !important;
     }
 
     .intro-left h1 {
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     button.btn-intro-2 {
-        font-size: 10px;
+        font-size: 10px !important;
     }
 
     button.btn-intro-1 {
-        font-size: 10px;
-        margin-left: 60px;
+        font-size: 10px !important;
+        margin-left: 60px !important;
     }
 
     button.btn-intro-2 {
-        margin-left: 44px;
+        margin-left: 44px !important;
     }
 
     .intro {
-        height: 340px;
+        height: 340px !important;
     }
 
     .intro-left {
-        height: 358px;
-        width: 49%;
+        height: 358px !important;
+        width: 49% !important;
     }
 
     .text-h2 {
-        font-size: 25px;
+        font-size: 25px !important;
     }
 
     .post-new {
-        width: 100%;
+        width: 100% !important;
     }
 
     .home-ad {
@@ -1253,55 +1300,55 @@ hr {
     .right-ads img {}
 
     .home-ads {
-        display: none;
+        display: none !important;
     }
 
     .top-coins h2 {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     .top-items {
-        width: 100%;
+        width: 100% !important;
     }
 
     .img-service {
-        width: 100%;
+        width: 100% !important;
     }
 
     p.ser-p-2 {
-        margin-bottom: 13px;
+        margin-bottom: 13px !important;
     }
 
     .main-footer {
-        flex-direction: column;
+        flex-direction: column !important;
     }
 
     footer {
-        height: 788px;
+        height: 788px !important;
     }
 
     .first-footer {
-        margin-left: 53px;
-        width: 100%;
+        margin-left: 53px !important;
+        width: 100% !important;
     }
 
     .mid-footer {
-        width: 100%;
-        margin-left: 81px;
-        margin-bottom: 0px;
+        width: 100% !important;
+        margin-left: 81px !important;
+        margin-bottom: 0px !important;
     }
 
     .last-footer {
-        width: 100%;
-        margin-top: 20px;
+        width: 100% !important;
+        margin-top: 20px !important;
     }
 
     .last-footer h4 {
-        margin-left: 62px;
+        margin-left: 62px !important;
     }
 
     .last-footer img {
-        margin-left: 34px;
+        margin-left: 34px !important;
     }
 }
 
@@ -1315,6 +1362,8 @@ hr {
         padding: 4px 4px;
         font-size: 12px;
         font-weight: 700;
+        position: absolute;
+        top: 10px;
     }
 
     .header-right {}
@@ -1323,10 +1372,15 @@ hr {
 
     .header-left img {
         max-width: 69px;
+        left: 3px;
+        position: absolute;
+        top: 2px;
     }
 
     .header {
         height: 54px;
+        position: relative;
+
     }
 
     .btn-intro-2 {
@@ -1340,10 +1394,138 @@ hr {
     img {}
 
     footer {
-        height: 864px !important;
+        height: 866px !important;
     }
 
     .last-footer img {
         margin-left: 62px;
+    }
+
+    button.ham-menu {
+        top: 13px;
+        right: 119px;
+    }
+
+    .intro-main {
+        flex-direction: column;
+    }
+
+    .intro-left {
+        height: 194px;
+    }
+
+    .intro-left h1 {
+        padding: 20px;
+    }
+
+    .intro-right {
+        height: 197px;
+        position: absolute;
+        top: 112px;
+    }
+
+    .intro-right img {
+        position: absolute;
+    }
+
+
+    button.btn-intro-1 {
+        position: absolute;
+        top: 163px;
+        right: 134px;
+    }
+
+    button.btn-intro-2 {
+        position: absolute;
+        top: 164px;
+        padding: 4px 24px;
+    }
+
+}
+
+
+
+
+@media (max-width:320px) {
+    .ham-menu img {
+        right: 350px;
+    }
+
+    button.ham-menu {
+        right: 126px;
+    }
+
+    .header-left img {
+        max-width: 69px;
+    }
+
+    button.btn {
+        position: absolute;
+        right: 24px;
+        top: -20px;
+        padding: 10px 10px !important;;
+    }
+
+    button.ham-menu {
+        right: 102px;
+        top: 6px;
+    }
+
+
+
+    .header-left {
+        position: absolute;
+        top: 4px;
+        left: 10px;
+    }
+
+    .intro-right {
+        width: 100%;
+        height: 239px;
+        top: 69px;
+    }
+
+    .intro-left {
+        width: 100px;
+        height: 103px;
+    }
+
+    .intro-main {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0 0 0;
+    }
+
+    .intro {
+        height: 380px;
+    }
+
+    .intro-left h1 {
+        padding: 15px 20px;
+    }
+
+    .intro-right {
+        width: 100%;
+        height: 239px;
+    }
+
+
+    button.btn-intro-1 {
+        position: absolute;
+        top: 176px;
+        right: 143px;
+    }
+
+    button.btn-intro-2 {
+        padding: 6px 20px;
+        top: 183px;
+        right: 0px;
+    }
+    .pro-img img {
+        height: 200px;
+    }
+
+    footer {
+        height: 890px !important;
     }
 }
