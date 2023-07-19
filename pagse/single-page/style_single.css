@@ -773,7 +773,7 @@ hr {
 
 .single-comment{
     background-color: #777777;
-    height: 500px;
+    height: auto;
     padding: 0 15px;
 }
 
@@ -856,6 +856,44 @@ hr {
     
     .header {
         height: 80px;
+    }
+
+    .single-pro-left {
+        height: 775px;
+    }
+    
+    .pro-images img {
+        height: 772px;
+    }
+    
+    .new-card {
+        height: 571px;
+    }
+    
+    .titles {
+        margin-top: 150px;
+    }
+    
+    .pro-img img {
+        height: 391px;
+    }
+    
+    p.name-coin {
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+    p.price-coin {
+        font-size: 40px;
+    }
+    
+    p.desc-coin {
+        font-size: 31px;
+        font-weight: 900;
+    }
+    
+    p.new-price {
+        font-size: 43px;
     }
 }
 
