@@ -12,6 +12,7 @@
     --bluev: blueviolet;
     --white: #fff;
     --black: black;
+    --red :  rgb(214, 86, 86);
 }
 
 
@@ -627,6 +628,13 @@ p {
     font-size: 12px;
     color: var(--main);
 }
+
+
+
+
+
+
+
 
 
 
