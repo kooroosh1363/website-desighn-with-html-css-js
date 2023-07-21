@@ -262,6 +262,65 @@ p {
 
 
 
+/* contact-us */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* contact-input */
+.contact-input{
+    width: 50%;
+    margin-bottom: 10px;
+    
+}
+
+.contact-input label{
+    display: block;
+    margin-bottom: .5rem;
+    color: var(--land);
+}
+
+.contact-input input{
+   width: 100%;
+   padding: 10px;
+   border-radius: 15px;
+   border: 1px #ccc solid;
+   outline: none;
+   
+}
+
+
+
+/* contact-message */
+.contact-message{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-message label{
+    display: block;
+    margin-bottom: .5rem;
+    color: var(--land);
+}
+
+
+.contact-message textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px #ccc solid;
+    outline: none;
+    min-height: 150px;
+ }
+
+
+/* contact-us */
+
+
+
+
 
 
 
