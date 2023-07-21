@@ -327,7 +327,7 @@ p {
 
 
 /* button */
-.contact-btn button {
+.contact-btn input {
     border: none;
     outline: none;
     cursor: pointer;

@@ -62,36 +62,40 @@
                 <div class="contacts">
                     <h1 class="co-h1 p-15">Contact Us</h1>
 
-                    <div class="row">
-                        <div class="contact-input p-15">
-                            <label for="contact_name">First Name-Last Name</label>
-                            <input id="contact_name" type="text" name="name">
+                    <form action="#">
+                        <div class="row">
+                            <div class="contact-input p-15">
+                                <label for="contact_name">First Name-Last Name</label>
+                                <input id="contact_name" type="text" name="name" required>
+                            </div>
+    
+                            <div class="contact-input p-15">
+                                <label for="contact_email">Email</label>
+                                <input id="contact_email" type="email" name="email" required>
+                            </div>
+    
+                            <div class="contact-input p-15">
+                                <label for="contact_Phone">Phone</label>
+                                <input id="contact_Phone" type="text" name="Phone" required>
+                            </div>
+    
+                            <div class="contact-input p-15">
+                                <label for="contact_Subject">Subject</label>
+                                <input id="contact_Subject" type="text" name="Subject" required>
+                            </div>
+    
+                            <div class="contact-message p-15">
+                                <label for="contact-message"> Your Message</label>
+                                <textarea name="message" id="contact-message" ></textarea>
+                            </div>
+    
+                            <div class="contact-btn p-15">
+                                <input type="submit" value="Send">
+                            </div>
                         </div>
+                    </form>
 
-                        <div class="contact-input p-15">
-                            <label for="contact_email">Email</label>
-                            <input id="contact_email" type="email" name="email">
-                        </div>
-
-                        <div class="contact-input p-15">
-                            <label for="contact_Phone">Phone</label>
-                            <input id="contact_Phone" type="text" name="Phone">
-                        </div>
-
-                        <div class="contact-input p-15">
-                            <label for="contact_Subject">Subject</label>
-                            <input id="contact_Subject" type="text" name="Subject">
-                        </div>
-
-                        <div class="contact-message p-15">
-                            <label for="contact-message"> Your Message</label>
-                            <textarea name="message" id="contact-message" ></textarea>
-                        </div>
-
-                        <div class="contact-btn p-15">
-                            <button>Send</button>
-                        </div>
-                    </div>
+                    
                     <hr class="line">
                 </div>
             </div>
