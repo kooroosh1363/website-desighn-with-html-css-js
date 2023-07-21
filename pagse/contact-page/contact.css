@@ -12,7 +12,7 @@
     --bluev: blueviolet;
     --white: #fff;
     --black: black;
-    --red :  rgb(214, 86, 86);
+    --red: rgb(214, 86, 86);
 }
 
 
@@ -254,6 +254,7 @@ p {
     transition: .4s;
 
 }
+
 /* header */
 
 
@@ -263,70 +264,70 @@ p {
 
 
 /* contact-us */
-.contact-us{
+.contact-us {
     padding: 10px 0px;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.co-h1{
+.co-h1 {
     color: var(--main);
     font-size: 30px;
 }
 
 
 /* contact-input */
-.contact-input{
+.contact-input {
     width: 50%;
     margin-bottom: 10px;
-    
+
 }
 
-.contact-input label{
+.contact-input label {
     display: block;
     margin-bottom: .5rem;
     color: var(--land);
 }
 
-.contact-input input{
-   width: 100%;
-   padding: 10px;
-   border-radius: 15px;
-   border: 1px #ccc solid;
-   outline: none;
-   
+.contact-input input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px #ccc solid;
+    outline: none;
+
 }
 
 
 
 /* contact-message */
-.contact-message{
+.contact-message {
     width: 100%;
     margin-bottom: 20px;
 }
 
-.contact-message label{
+.contact-message label {
     display: block;
     margin-bottom: .5rem;
     color: var(--land);
 }
 
 
-.contact-message textarea{
+.contact-message textarea {
     width: 100%;
     padding: 10px;
     border-radius: 15px;
     border: 1px #ccc solid;
     outline: none;
     min-height: 150px;
- }
+}
 
 
- /* button */
- .contact-btn button{
+/* button */
+.contact-btn button {
     border: none;
     outline: none;
     cursor: pointer;
@@ -335,15 +336,15 @@ p {
     background-color: var(--land);
     border-radius: 10px;
     font-size: 20px;
- }
+}
 
 
- .line{
-    border:2px var(--main) solid ;
+.line {
+    border: 2px var(--main) solid;
     margin-top: 30px;
     margin-left: 15px;
     margin-right: 15px;
- }
+}
 
 /* contact-us */
 
@@ -352,7 +353,7 @@ p {
 
 
 /* media query */
-@media (max-width:768px){
+@media (max-width:768px) {
     .nav {
         display: none;
     }
@@ -362,15 +363,39 @@ p {
         position: absolute;
         right: 138px;
     }
+    footer {
+        height: 439px;
+    }
+    
+    .first-footer {
+        margin-right: 10px;
+    }
+    
+    .mid-footer {
+        margin-left: 42px;
+    }
+    
+    .last-footer {
+        margin-left: 17px;
+    }
+    
+    .last-footer h4 {
+        margin-left: 29px;
+    }
+    
+    .last-footer img {
+        margin-left: 10px;
+    }
 }
 
 
-@media (max-width:600px){
+@media (max-width:600px) {
 
-    .row{
+    .row {
         flex-direction: column;
 
     }
+
     .contact-input {
         width: 50%;
         margin-bottom: 10px;
@@ -378,29 +403,109 @@ p {
 }
 
 
-@media (max-width:407px){
-    .header{
+@media (max-width:425px) {
+    .header {
         overflow-x: hidden !important;
+    }
+    .main-footer {
+        flex-direction: column;
+    }
+    
+    footer {
+        height: 1500px;
+    }
+    
+    .first-footer {
+        width: 100%;
+        margin-top: 60px;
+    }
+    
+    .mid-footer {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    .last-footer {
+        width: 100%;
+        margin-left: 49px;
     }
 }
 
 
-@media (max-width:375px){
-    .header{
+@media (max-width:375px) {
+    .header {
         overflow-x: hidden !important;
     }
+
     .contact-input {
         width: 100%;
+    }
+
+
+
+
+    .main-footer {
+        flex-direction: column !important;
+    }
+
+    .first-footer {
+        width: 100%;
+        margin-top: 54px;
+        margin-left: 33px;
+    }
+
+    .mid-footer {
+        width: 100% !important;
+        margin-top: 52px;
+        margin-left: 50px;
+    }
+
+    footer {
+        height: 1144px !important;
+    }
+
+    .last-footer {
+        width: 100%;
+        margin-left: 60px;
     }
 }
 
 
-@media (max-width:320px){
-    .header{
+@media (max-width:320px) {
+    .header {
         overflow-x: hidden !important;
     }
+
     .contact-input {
         width: 100%;
+    }
+
+
+
+
+
+    .main-footer {
+        flex-direction: column !important;
+    }
+
+    .first-footer {
+        width: 100% !important;
+    }
+
+    .mid-footer {
+        margin-top: 60px;
+        width: 100%;
+        margin-left: 60px !important;
+    }
+
+    footer {
+        height: 1444px !important;
+    }
+
+    .last-footer {
+        width: 100%;
+        margin-left: 60px;
     }
 }
 
@@ -533,4 +638,5 @@ hr {
 .under-right p {
     color: var(--white);
 }
+
 /* footer */
