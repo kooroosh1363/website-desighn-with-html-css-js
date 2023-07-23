@@ -582,3 +582,37 @@ hr {
 
 
 
+
+
+
+/* media query */
+@media (max-width:1000px){
+    .cat-flex{
+        flex-direction: column;
+    }
+    .cat-sidebar{
+        width: 100%;
+    }
+    .cat-content{
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width:800px){
+    .post-new {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media (max-width:600px){
+    .post-new {
+        width: 100%;
+        /* height: 480px; */
+    }
+}
