@@ -324,7 +324,7 @@ p {
 .cat-sidebar{
     width: 25%;
     height: 500px;
-    background-color: #9b9b9b;
+    /* background-color: #9b9b9b; */
     padding:18px 15px;
 }
 
@@ -511,7 +511,37 @@ p {
 
 
 
+/* pagination */
+.pagination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
 
+
+
+.item{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 1px 2px var(--land);
+    margin: 0px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--fonts);
+    cursor: pointer;
+    color: var(--main);
+
+}
+
+
+.item-selected{
+    background-color: var(--sec);
+    color: var(--white);
+}
+/* pagination */
 
 
 
